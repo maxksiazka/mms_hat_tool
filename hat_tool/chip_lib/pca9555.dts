@@ -1,0 +1,12 @@
+/*
+ * PCA9555 16-bit I2C GPIO Expander
+ * I2C address: 0x20
+ */
+expander0: gpio@20 {
+	compatible = "nxp,pca9555";
+	reg = <0x20>;
+	gpio-controller;
+	#gpio-cells = <2>;
+	ngpios = <16>;
+	status = "okay";
+};

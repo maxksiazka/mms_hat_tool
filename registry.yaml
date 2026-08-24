@@ -1,0 +1,7 @@
+vendor_id: 4292
+hats:
+- type_id: 256
+  slug: mms_hat_rtc_sd
+  description: A board with 4 SD card slots and an DS3231 RTC module.
+  hw_rev: 1
+  sw_ver: 100

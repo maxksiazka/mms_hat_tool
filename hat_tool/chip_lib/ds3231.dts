@@ -1,0 +1,15 @@
+/*
+ * DS3231 RTC with MFD support
+ * I2C address: 0x68
+ */
+ds3231: ds3231@68 {
+	compatible = "maxim,ds3231-mfd";
+	reg = <0x68>;
+	status = "okay";
+
+	rtc0: ds3231_rtc {
+		compatible = "maxim,ds3231-rtc";
+		isw-gpios = placeholder;
+		status = "okay";
+	};
+};
