@@ -43,11 +43,7 @@ hat-tool/
 │   ├── cli.py              # CLI entry point
 │   ├── core.py             # Core logic: registry, binary, DTS generation
 │   ├── tui.py              # Interactive terminal UI (questionary + rich)
-│   └── chip_lib/
-│   │   ├── chip_lib.py     # Chip catalog management
-│   │   ├── ds3231.dts      # DS3231 RTC DTS template
-│   │   ├── pca9555.dts     # PCA9555 GPIO expander DTS template
-│   │   └── bmi270.dts      # BMI270 IMU DTS template
+│   └── chip_lib/           # Chip dts sample dir
 ```
 
 ## Registry Format (`registry.yaml`)
