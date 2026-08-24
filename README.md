@@ -233,5 +233,5 @@ Apache-2.0 - See individual files for SPDX headers.
 ## Related
 
 - [Zephyr RTOS](https://zephyrproject.org/)
-- [West](https://docs.zephyrproject.org/latest/develop/west/)
-- Chainbus HAT Specification (internal)
+- [Chainbus driver](https://github.com/maxksiazka/mms_chainbus/driver)
+- [Chainbus HAT driver](https://github.com/maxksiazka/mms_hat_driver)
