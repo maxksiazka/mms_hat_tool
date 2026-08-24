@@ -179,7 +179,7 @@ DTS templates support `{slot}` placeholder for slot-aware node names.
 
 ## Commands
 
-### `west hat register`
+### `hat register`
 
 Interactive wizard to:
 
@@ -196,7 +196,7 @@ Outputs:
 - Updated `registry.yaml`
 - EEPROM binary: `<slug>.bin` in current directory
 
-### `west hat generate`
+### `hat generate`
 
 Interactive wizard to:
 
@@ -209,7 +209,7 @@ Output:
 
 - Devicetree overlay: `<slug>.overlay` (or custom path)
 
-### `west hat remove`
+### `hat remove`
 
 Interactive wizard to:
 
